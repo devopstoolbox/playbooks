@@ -6,5 +6,5 @@
   tasks:
     - name: bootstrap is configured
       import_role:
-        name: devops-toolbox.bootstrap
+        name: devopstoolbox.bootstrap
       tags: bootstrap

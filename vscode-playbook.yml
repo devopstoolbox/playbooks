@@ -5,7 +5,7 @@
   tasks:
     - name: vscode is configured
       import_role:
-        name: devops-toolbox.vscode
+        name: devopstoolbox.vscode
       vars:
         vscode_extensions_user: cmihai
         vscode_extensions_install:

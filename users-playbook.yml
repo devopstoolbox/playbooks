@@ -5,5 +5,5 @@
   tasks:
     - name: users is configured
       import_role:
-        name: devops-toolbox.users
+        name: devopstoolbox.users
       tags: users
