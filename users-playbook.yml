@@ -1,0 +1,9 @@
+---
+- name: Setup users
+  hosts: dev
+
+  tasks:
+    - name: users is configured
+      import_role:
+        name: devops-toolbox.users
+      tags: users
