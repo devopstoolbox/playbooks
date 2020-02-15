@@ -1,0 +1,15 @@
+- name: Set up Linux desktop running Fedora 31
+  hosts: desktop
+
+  roles:
+    - crivetimihai.users
+    - crivetimihai.packages
+    - crivetimihai.kvm
+    - crivetimihai.podman
+    - crivetimihai.bootstrap
+    - crivetimihai.users
+    - crivetimihai.dotfiles
+    - crivetimihai.gnome
+    - crivetimihai.localbin
+    - crivetimihai.vscode
+    - crivetimihai.flatpak
